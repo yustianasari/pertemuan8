@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main ()
+{ 
+    int i, nilai;
+    cout<<"masukan nilai= ";
+    cin>> nilai;
+    for (i=0 ; i<=nilai ; i=i+5) {
+        cout<<i<<",";
+    }
+    return 0;
+}
