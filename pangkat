@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main ()
+{ 
+    int i, nilai, pangkat, jumlah;
+    cout<<"masukan nilai= ";
+    cin>> nilai;
+    
+    cout<<"masukan pangkat= ";
+    cin>>pangkat;
+    
+    jumlah= 1;
+    
+    for (i=1 ; i<=pangkat ; i++) {
+        
+        jumlah=jumlah*nilai;
+    }
+    
+    cout<<"jumlah= "<< jumlah;
+    
+    return 0;
+}
