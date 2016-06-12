@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main ()
+{ 
+    int nilai, faktorial;
+   
+   cout<<"masukan nilai= ";
+   cin>> nilai;
+   
+   faktorial=1;
+   cout<<"faktorial= ";
+   for (; nilai>0;nilai--) {
+       cout<<nilai;
+       if (nilai!=1) {
+           cout<<"x";
+       }
+       
+       faktorial=faktorial*nilai;
+   }
+    
+    cout<<" = "<< faktorial;
+    
+    return 0;
+}
+  
